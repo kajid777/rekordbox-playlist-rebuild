@@ -1,0 +1,6 @@
+interface:
+  display_name: "rekordboxプレイリスト再現"
+  short_description: "Spotify・SoundCloudの曲順を手持ち音源で再現し、未一致も報告"
+  default_prompt: "$rekordbox-playlist-rebuild を使い、このプレイリストURLを既存rekordboxライブラリ優先で照合し、M3U8と未一致レポートを作成してください。"
+policy:
+  allow_implicit_invocation: true
